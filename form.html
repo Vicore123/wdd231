@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Product Review Form</title>
+   <meta name="description" content="W05 Assignment: Product Review Form">
+   <meta name="author" content="Vinicius Alves">
+   
+   <link rel="stylesheet" href="styles/form.css">
+   <script defer src="scripts/form.js"></script>
+</head>
+<body>
+   <main>
+      <h1>Product Review Form</h1>
+      <form action="review.html" method="get">
+         
+         <label for="product">Product Name:</label>
+         <select id="product" name="product" required>
+            <option value="" disabled selected>Select a Product ...</option>
+         </select>
+
+         <fieldset>
+            <legend>Overall Rating:</legend>
+            <div class="rating">
+               <label><input type="radio" name="rating" value="1" required /> ☆</label>
+               <label><input type="radio" name="rating" value="2" /> ☆☆</label>
+               <label><input type="radio" name="rating" value="3" /> ☆☆☆</label>
+               <label><input type="radio" name="rating" value="4" /> ☆☆☆☆</label>
+               <label><input type="radio" name="rating" value="5" /> ☆☆☆☆☆</label>
+            </div>
+         </fieldset>
+
+         <label for="install-date">Date of Installation:</label>
+         <input type="date" id="install-date" name="installDate" required />
+
+         <fieldset>
+            <legend>Useful Features:</legend>
+            <label><input type="checkbox" name="features" value="easy-setup" /> Easy Setup</label>
+            <label><input type="checkbox" name="features" value="durable" /> Durable</label>
+            <label><input type="checkbox" name="features" value="compact" /> Compact</label>
+            <label><input type="checkbox" name="features" value="affordable" /> Affordable</label>
+         </fieldset>
+
+         <label for="review">Written Review:</label>
+         <textarea id="review" name="review" rows="4" placeholder="Write your thoughts here..."></textarea>
+
+         <label for="username">Your Name:</label>
+         <input type="text" id="username" name="username" />
+
+         <input type="submit" value="Send Review" />
+      </form>
+   </main>
+
+   <footer>
+      <p>© 2025 - Vinicius Alves</p>
+   </footer>
+</body>
+</html>
