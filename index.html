@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Home Page</title>
+   <meta name="description" content="W01 Assignment: Course Home Page">
+   <meta name="author" content="Vinicius Alves">
+   
+   <link rel="stylesheet" href="styles/small.css">
+   <link rel="stylesheet" href="styles/large.css">
+   <script defer src="scripts/navigation-bar.js"></script>
+   <script defer src="scripts/getdates.js"></script>
+
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+   <header>
+      <div id="profile">
+         <img src="images/vinicius-alves.jpg" alt="Profile picture">
+         <h1>Vinicius L. Alves</h1>
+      </div>
+      <button id="menu-btn">☰</button>
+      <nav id="menu" class="hidden">
+         <a href="#">Home</a>
+         <a href="#">Chamber</a>
+         <a href="#">Final</a>
+         <a href="#">GitHub Profile</a>
+         <a href="#">LinkedIn</a>
+      </nav>
+   </header>
+   <main>
+      <h2>Home</h2>
+      <div class="window" id="course">
+         <h3>Course Work</h3>
+         <ul>
+            <li>item</li>
+            <li>item</li>
+            <li>item</li>
+         </ul>
+      </div>
+      <div class="window" id="city">
+         <h3>Fortaleza, Brazil</h3>
+         <figure>
+            <img src="images/iracema.jpeg" alt="">
+            <figcaption>Iracema Statue</figcaption>
+         </figure>
+      </div>
+      <div class="window" id="certificate">
+         <h3>Web and computer programming Certificate</h3>
+         ...[...]
+      </div>
+   </main>
+   <footer>
+      <p>&copy;<strong id="currentyear"></strong></p>
+      <p>🍀 Vinicius Alves 🍀 Fortaleza</p>
+      <p><strong id="lastModified"></strong></p>
+   </footer>
+</body>
+</html>

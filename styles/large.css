@@ -1,0 +1,35 @@
+:root {
+   --primary-color: #164E70;
+   --secondary-color: #2D6A8C;
+}
+
+@media (min-width: 768px) {
+   #menu-btn {
+      display: none;
+   }
+   .hidden {
+      display: flex;
+      justify-content: space-evenly;
+   }
+   header nav {
+      background-color: black;
+   }
+
+
+   /* ============ MAIN ============ */
+   main {
+      display: grid;
+      grid-template-columns: 2fr, 1fr;
+      column-gap: 10px;
+   }
+   main #course {
+      grid-column: 1 / 2;
+   }
+   main #city {
+      grid-column: 2 / 3;
+   }
+   main #certificate {
+      grid-column: 1 / 3;
+   }
+
+}
