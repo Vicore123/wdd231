@@ -35,4 +35,11 @@
       grid-column: 1 / 3;
    }
 
+   #buttons button {
+      width: 20%;
+   }
+   #course-subject p {
+      width: 25%;
+   }
+
 }
