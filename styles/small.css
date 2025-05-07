@@ -131,6 +131,10 @@ main h2 {
    border: 2px solid gray;
    border-radius: 10px;
 }
+#course-subject h4 {
+   text-align: center;
+   margin: 10px;
+}
 
 /* ============ FOOTER ============ */
 footer {

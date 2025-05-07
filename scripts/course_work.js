@@ -86,8 +86,14 @@ courses.map((course) => {
 
 function list_courses(array) {
     course_subject.innerHTML = ""
+    const h4 = document.createElement("h4");
+    let sum = 0;
+
     array.map((course)=>{
         const p = document.createElement("p");
+        
+        sum += course.credits;
+
         p.textContent = `${course.subject} ${course.number}`;
 
         if (course.completed) {
@@ -96,6 +102,9 @@ function list_courses(array) {
         }
         course_subject.appendChild(p);
     })
+
+    h4.textContent = `The total number of course listed below is ${sum}`
+    course_subject.appendChild(h4);
 }
 
 function wdd_courses() {
