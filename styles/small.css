@@ -42,11 +42,17 @@ header h1 {
    color: white;
    font-size: 30px;
 }
-.hidden {
-   display: none;
-}
+
 header nav {
-   display: block;
+   display: grid;
+   grid-template-rows: 0fr;
+   transition: grid-template-rows 0.5s ease-out;
+}
+
+header ul {overflow: hidden;}
+
+.open {
+   grid-template-rows: 1fr;
 }
 header a {
    display: block;
@@ -55,7 +61,7 @@ header a {
    padding: 10px;
 }
 @media (max-width: 768px) {
-   #menu a:nth-child(odd) {
+   #menu li:nth-child(odd) {
       background-color: var(--secondary-color);
    }
 }
