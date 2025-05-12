@@ -1,0 +1,38 @@
+* {
+   padding: 0px;
+   margin: 0px;
+   color: #4D4D96;
+   font-family: "inter", "sans-serif";
+}
+h1 {
+   text-align: center;
+   margin: 20px;
+   font-size: 40px;
+}
+#cards {
+   margin: 10px;
+   box-shadow: 0 0 10px rgb(71, 71, 71);
+   padding: 10px;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-evenly;
+}
+#cards section {
+   background-color: #B9B9CC;
+   border: 1px solid #4D4D96;
+   text-align: center;
+   padding: 20px;
+   margin-bottom: 20px;
+   width: 20em;
+}
+#cards section h2 {
+   font-size: 35px;
+   margin-bottom: 10px;
+}
+#cards section p {
+   color: black;
+}
+#cards section img {
+   margin-top: 10px;
+   box-shadow: 0 0 10px rgb(71, 71, 71);
+}
