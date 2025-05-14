@@ -1,0 +1,47 @@
+
+
+@media (min-width: 768px) {
+   
+   /* ============== HEADER =============== */
+
+   header {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      align-items: end;
+      padding: 0px 10%;
+   }
+   #menu-btn {
+      display: none;
+   }
+   header ul {
+      overflow: visible;
+   }
+   header nav {
+      display: flex;
+      justify-content: end;
+      align-items: center;
+      margin: 10px;
+   }
+   header ul {
+      display: flex;
+   }
+
+   /* ============== MAIN ================= */
+
+   main {
+      padding: 10px 10%;
+   }
+
+   /* ============== FOOTER ================= */
+   footer {
+      padding: 10px 10%;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+   }
+
+}
+
+
+
+

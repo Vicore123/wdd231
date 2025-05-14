@@ -1,0 +1,150 @@
+:root {
+   --primary-color: #423E37;
+   --secondary-color: #59A96A;
+   --accent-color: #F9DEC9;
+}
+* {
+   padding: 0;
+   margin: 0;
+   font-family: "Inter", sans-serif;
+}
+
+/* ============== HEADER ================= */
+header {
+   background-color: var(--primary-color);
+   color: white;
+}
+#header {
+   display: flex;
+}
+#iracema {
+   width: 60px;
+   margin: 10px;
+}
+#messejana {
+   font-size: 15px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   margin: 5px;
+}
+header nav {
+   display: grid;
+   grid-template-rows: 0fr;
+   transition: grid-template-rows 0.5s ease-out;
+}
+header ul {
+   overflow: hidden;
+}
+header a {
+   display: block;
+   text-align: center;
+   color: white;
+   padding: 10px;
+   text-decoration: none;
+}
+header li {
+   list-style-type: none;
+}
+.open {
+   grid-template-rows: 1fr;
+}
+#menu-btn {
+   position: absolute;
+   top: 12px;
+   right: 20px;
+   font-size: 40px;
+   background: none;
+   border: none;
+   color: white;
+}
+#theme-button {
+   width: 37px;
+}
+
+@media (max-width: 768px) {
+   #theme-button {
+      position: absolute;
+      top: 20px;
+      right: 65px;
+   }
+
+   #menu li:nth-child(odd) {
+      background-color: var(--secondary-color);
+   }
+}
+
+/* ============== MAIN ================= */
+
+main {
+   background-color: var(--accent-color);
+}
+
+#view-buttons-container {
+   display: flex;
+   justify-content: center;
+}
+.view-buttons img {
+   width: 30px;
+}
+.view-buttons {
+   background: none;
+   border: none;
+   color: white;
+   margin: 20px;
+   padding: 10px;
+   border: 3px solid var(--secondary-color);
+   border-radius: 10px;
+}
+@media (max-width: 768px) {
+   #view-buttons-container {
+      display: none;
+   }
+}
+
+.grid {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   justify-content: center;
+}
+.grid-card {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   width: 350px;
+   margin: 10px;
+   padding: 10px;
+   box-shadow: 1px 5px 20px rgba(0, 0, 0, 0.5);
+}
+.grid-card img {
+   margin-bottom: 10px;
+}
+.grid-card p {
+   margin: 5px 0px;
+}
+
+.list {
+   
+}
+.list-card {
+
+}
+
+
+/* ================= FOOTER =============== */
+
+footer {
+   background-color: var(--primary-color);
+   color: white;
+   padding: 10px;
+}
+footer img {
+   width: 80px;
+   margin: 20px 10px;
+}
+#social-media {
+   display: flex;
+   justify-content: center;
+}
