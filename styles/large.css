@@ -9,7 +9,6 @@
    }
    .open {
       display: flex;
-      justify-content: space-evenly;
    }
    header ul {
       display: flex;

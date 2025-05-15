@@ -14,9 +14,8 @@ listButton.addEventListener('click', () => switchView(displayCompaniesList, 'lis
 async function getCompanies() {
    const response = await fetch('../data/members.json');
    const data = await response.json();
-   console.log(data);
    return data.companies;
-}
+};
 
 const displayCompaniesGrid = (companies) => {
    cards.innerHTML = '';
@@ -60,13 +59,11 @@ const displayCompaniesList = (companies) => {
       let name = document.createElement('h2');
       let address = document.createElement('p')
       let phone = document.createElement('p');
-      let foundedYear = document.createElement('p');
       let website = document.createElement('a');
 
       name.textContent = company.name;
       address.textContent = company.address;
       phone.textContent = company.phone;
-      foundedYear.textContent = `founded Year: ${company.foundedYear}`;
       website.textContent = company.website;
       website.setAttribute('href', company.website);
 
@@ -74,10 +71,10 @@ const displayCompaniesList = (companies) => {
       card.appendChild(name);
       card.appendChild(address);
       card.appendChild(phone);
-      card.appendChild(foundedYear);
       card.appendChild(website);
 
       cards.appendChild(card);
    });
 };
 
+switchView(displayCompaniesGrid, 'grid');
