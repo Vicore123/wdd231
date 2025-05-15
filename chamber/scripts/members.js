@@ -12,7 +12,7 @@ gridButton.addEventListener('click', () => switchView(displayCompaniesGrid, 'gri
 listButton.addEventListener('click', () => switchView(displayCompaniesList, 'list'));
 
 async function getCompanies() {
-   const response = await fetch('../data/members.json');
+   const response = await fetch('./data/members.json');
    const data = await response.json();
    return data.companies;
 };
