@@ -17,6 +17,9 @@ header {
 #header {
    display: flex;
 }
+#header h2 {
+   font-size: 30px;
+}
 #iracema {
    width: 60px;
    margin: 10px;
