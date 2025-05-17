@@ -155,7 +155,7 @@ main {
    height: 70px;
 }
 .list-card:nth-child(odd) {
-   background-color: #ffd5b4;
+   background-color: #ffeada;
 }
 
 /* ================= FOOTER =============== */
