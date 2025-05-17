@@ -17,9 +17,7 @@ header {
 #header {
    display: flex;
 }
-#header h2 {
-   font-size: 30px;
-}
+
 #iracema {
    width: 60px;
    margin: 10px;
@@ -31,6 +29,9 @@ header {
    align-items: center;
    justify-content: center;
    margin: 5px;
+}
+#messejana h2 {
+   font-size: 30px;
 }
 header nav {
    display: grid;
