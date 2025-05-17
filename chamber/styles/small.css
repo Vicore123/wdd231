@@ -104,6 +104,10 @@ main {
    #view-buttons-container {
       display: none;
    }
+   #title {
+      justify-self: center;
+      padding: 10px;
+   }
 }
 
 .grid {
