@@ -4,6 +4,11 @@
       grid-template-columns: 2fr 1fr 1fr;
       gap: 10px;
    }
+   #spotlight {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 10px;
+   }
    
 }
 @media (min-width: 1220px) {
