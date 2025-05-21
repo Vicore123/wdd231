@@ -1,67 +1,74 @@
 {
   "companies": [
-      {
-         "name": "TechNova Solutions",
-         "address": "123 Innovation Drive, San Francisco, CA 94107",
-         "phone": "(415) 555-0198",
-         "website": "https://www.technovasolutions.com",
-         "image": "./images/company.jpg",
-         "membershipLevel": 3,
-         "foundedYear": 2010
-      },
-      {
-         "name": "GreenLeaf Organics",
-         "address": "456 Garden Lane, Portland, OR 97205",
-         "phone": "(503) 555-0123",
-         "website": "https://www.greenleaforganics.com",
-         "image": "./images/company.jpg",
-         "membershipLevel": 2,
-         "foundedYear": 2015
-      },
-      {
-         "name": "BluePeak Financial",
-         "address": "789 Finance Avenue, New York, NY 10001",
-         "phone": "(212) 555-0456",
-         "website": "https://www.bluepeakfinancial.com",
-         "image": "./images/company.jpg",
-         "membershipLevel": 1,
-         "foundedYear": 2008
-      },
-      {
-         "name": "BrightPath Education",
-         "address": "321 Learning Blvd, Austin, TX 73301",
-         "phone": "(512) 555-0991",
-         "website": "https://www.brightpathedu.com",
-         "image": "./images/company.jpg",
-         "membershipLevel": 3,
-         "foundedYear": 2012
-      },
-      {
-         "name": "UrbanStyle Architects",
-         "address": "654 Modern Street, Chicago, IL 60616",
-         "phone": "(312) 555-0678",
-         "website": "https://www.urbanstylearch.com",
-         "image": "./images/company.jpg",
-         "membershipLevel": 2,
-         "foundedYear": 2005
-      },
-      {
-         "name": "Velocity Logistics",
-         "address": "987 Freight Road, Atlanta, GA 30303",
-         "phone": "(404) 555-0789",
-         "website": "https://www.velocitylogistics.com",
-         "image": "./images/company.jpg",
-         "membershipLevel": 1,
-         "foundedYear": 2000
-      },
-      {
-         "name": "Pulse Health Systems",
-         "address": "159 Wellness Way, Denver, CO 80202",
-         "phone": "(720) 555-0345",
-         "website": "https://www.pulsehealthsystems.com",
-         "image": "./images/company.jpg",
-         "membershipLevel": 3,
-         "foundedYear": 2018
-      }
-   ]
+    {
+      "name": "TechNova Solutions",
+      "address": "123 Innovation Drive, San Francisco, CA 94107",
+      "phone": "(415) 555-0198",
+      "website": "technovasolutions.com",
+      "image": "./images/company.jpg",
+      "membershipLevel": 3,
+      "foundedYear": 2010,
+      "email": "info@gmail.com"
+    },
+    {
+      "name": "GreenLeaf Organics",
+      "address": "456 Garden Lane, Portland, OR 97205",
+      "phone": "(503) 555-0123",
+      "website": "greenleaforganics.com",
+      "image": "./images/company.jpg",
+      "membershipLevel": 2,
+      "foundedYear": 2015,
+      "email": "info@gmail.com"
+    },
+    {
+      "name": "BluePeak Financial",
+      "address": "789 Finance Avenue, New York, NY 10001",
+      "phone": "(212) 555-0456",
+      "website": "bluepeakfinancial.com",
+      "image": "./images/company.jpg",
+      "membershipLevel": 1,
+      "foundedYear": 2008,
+      "email": "info@gmail.com"
+    },
+    {
+      "name": "BrightPath Education",
+      "address": "321 Learning Blvd, Austin, TX 73301",
+      "phone": "(512) 555-0991",
+      "website": "brightpathedu.com",
+      "image": "./images/company.jpg",
+      "membershipLevel": 3,
+      "foundedYear": 2012,
+      "email": "info@gmail.com"
+    },
+    {
+      "name": "UrbanStyle Architects",
+      "address": "654 Modern Street, Chicago, IL 60616",
+      "phone": "(312) 555-0678",
+      "website": "urbanstylearch.com",
+      "image": "./images/company.jpg",
+      "membershipLevel": 2,
+      "foundedYear": 2005,
+      "email": "info@gmail.com"
+    },
+    {
+      "name": "Velocity Logistics",
+      "address": "987 Freight Road, Atlanta, GA 30303",
+      "phone": "(404) 555-0789",
+      "website": "velocitylogistics.com",
+      "image": "./images/company.jpg",
+      "membershipLevel": 1,
+      "foundedYear": 2000,
+      "email": "info@gmail.com"
+    },
+    {
+      "name": "Pulse Health Systems",
+      "address": "159 Wellness Way, Denver, CO 80202",
+      "phone": "(720) 555-0345",
+      "website": "pulsehealthsystems.com",
+      "image": "./images/company.jpg",
+      "membershipLevel": 3,
+      "foundedYear": 2018,
+      "email": "info@gmail.com"
+    }
+  ]
 }

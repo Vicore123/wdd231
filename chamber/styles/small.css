@@ -86,6 +86,7 @@ header li {
 
 main {
    background-color: var(--accent-color);
+   padding: 10px;
 }
 
 #view-buttons-container {

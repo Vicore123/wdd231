@@ -1,0 +1,112 @@
+.hero {
+  background: url('../images/feira.jpg') no-repeat center center/cover;
+  color: white;
+  text-align: center;
+  padding: 120px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-height: 20rem;
+  position: relative;
+}
+
+.hero::before {
+  content: "";
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background-color: rgba(0, 0, 0, 0.568); 
+}
+
+.hero-content {
+  position: relative;
+  z-index: 1;
+  max-width: 700px;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 0.5rem;
+  font-weight: 700;
+  font-family: 'Inter', sans-serif;
+}
+
+h2 {
+  margin: 10px 0px;
+  font-size: 40px;
+}
+
+.hero p {
+  font-size: 1.3rem;
+  margin-bottom: 1.5rem;
+}
+
+.cta-button {
+  background-color: var(--secondary-color);
+  color: black;
+  padding: 14px 28px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+
+.cta-button:hover {
+  background-color: var(--accent-color);
+}
+
+.info h3 {
+  background-color: var(--secondary-color);
+  padding: 10px;
+  text-align: center;
+  font-size: 30px;
+}
+.info div {
+  margin-bottom: 10px;
+  background-color: #ffb47a;
+}
+
+#current-weather {
+  display: grid;
+  grid-template-columns: auto 2fr;
+}
+#current-weather img {
+  margin-left: auto;
+}
+#current-weather div {
+  padding: 20px 0px;
+  min-width: 180px;
+}
+#current-weather p {
+  font-size: 25px;
+}
+#weather-forecast p {
+  font-size: 30px;
+  padding: 10px;
+}
+#spotlight {
+  margin-top: 30px;
+}
+#spotlight section {
+  background-color: #ffb47a;
+  padding: 10px;
+  margin-bottom: 10px;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  border-radius: 10px;
+}
+#spotlight h3 {
+  border-bottom: 3px solid black;
+  padding-bottom: 10px;
+  grid-column: 1 / 3;
+  font-size: 35px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+#spotlight img {
+  width: 90px;
+  margin: auto;
+}
+#spotlight p {
+  font-size: 20px;
+}
+

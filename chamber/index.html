@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Messejana Chamber of Commerce - Home Page</title>
+   <meta name="description" content="Welcome to the official home page of the Messejana Chamber of Commerce. Supporting local businesses and community growth.">
+   <meta name="author" content="Vinicius Alves">
+   <link rel="icon" href="images/favicon.ico">
+
+   <meta property="og:title" content="Messejana Chamber - Home">
+   <meta property="og:description" content="Official site of the Messejana Chamber of Commerce. Learn, connect, and grow with us.">
+   <meta property="og:image" content="https://raw.githubusercontent.com/Vicore123/wdd231/refs/heads/main/images/favicon.ico"/>
+   <meta property="og:url" content="https://vicore123.github.io/wdd231/chamber">  
+   
+   <link rel="stylesheet" href="styles/small.css">
+   <link rel="stylesheet" href="styles/large.css">
+   <link rel="stylesheet" href="styles/home-page-small.css">
+   <link rel="stylesheet" href="styles/home-page-large.css">
+   <script defer src="scripts/navigation_bar.js"></script>
+   <script defer src="scripts/getdates.js"></script>
+   <script type="module" src="scripts/weather.mjs"></script>
+   <script type="module" src="scripts/spotlight.mjs"></script>
+
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+   <header>
+      <div id="header">
+         <img src="images/iracema.jpeg" alt="Iracema Statue" id="iracema">
+         <div id="messejana">
+            <h2>Messejana</h2>
+            <p>Chamber of Commerce</p>
+         </div>
+      </div>
+      <button id="menu-btn">☰</button>
+      <nav id="menu">
+         <ul>
+            <li><a href="#" class="active">Home</a></li>
+            <li><a href="#">Directory</a></li>
+            <li><a href="#">Join</a></li>
+            <li><a href="#">Discover</a></li>
+         </ul>
+         <img src="images/circle.svg" alt="theme changer button" id="theme-button">
+      </nav>
+   </header>
+   <main>
+      <section class="hero">
+         <div class="hero-content">
+            <h1>Welcome to the Messejana Chamber of Commerce</h1>
+            <p>Empowering local businesses and strengthening our community.</p>
+            <a href="#" class="cta-button">Join the Chamber</a>
+         </div>
+      </section>
+      <h2>Home</h2>
+      <section class="info">
+         <div>
+            <h3>Events</h3>
+         </div>
+         <div>
+            <h3>Current Weather</h3>
+            <div id="current-weather">
+               <img src="" alt="" id="weather-icon">
+               <div>
+                  <p id="temperature"></p>
+                  <p id="description"></p>
+                  <p id="high"></p>
+                  <p id="low"></p>
+                  <p id="humidity"></p>
+                  <p id="sunrise"></p>
+                  <p id="sunset"></p>
+               </div>
+            </div>
+         </div>
+         <div id="weather-forecast">
+            <h3>Weather Forecast</h3>
+            <p id="today"></p>
+            <p id="wednesday"></p>
+            <p id="thursday"></p>
+         </div>
+      </section>
+      <section id="spotlight">
+
+      </section>
+   </main>
+   <footer>
+      <div>
+         <h2>Messejana Chamber of Commerce</h2>
+         <p>Rua Lorem ipsum, 555</p>
+         <p>Messejana, CEP 999-999</p>
+         <p>info@lorem.org</p>
+         <p>(85) 99999-9999</p>         
+      </div>
+      <div id="social-media">
+         <img src="images/youtube.png" alt="YouTube link">
+         <img src="images/twitter.png" alt="Twitter link">
+         <img src="images/linkedin.png" alt="LinkedIn link">
+      </div>
+      <div>
+         <p>WDD231 Class Project</p>
+         <p>Vinicius Alves</p>
+         <p>&copy;<strong id="currentyear"></strong> Messejana Chamber of Commerce</p>
+         <p><strong id="lastModified"></strong></p>
+      </div>
+   </footer>
+</body>
+</html>
