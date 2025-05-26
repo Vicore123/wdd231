@@ -17,7 +17,9 @@
    <link rel="stylesheet" href="styles/large.css">
    <script defer src="scripts/navigation_bar.js"></script>
    <script defer src="scripts/getdates.js"></script>
-   <script defer src="scripts/course_work.js"></script>
+   <script type="module" src="scripts/course_work.mjs"></script>
+   <script type="module" src="scripts/display_course_modal.mjs"></script>
+
 
    <link rel="preconnect" href="https://fonts.googleapis.com">
    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -56,11 +58,12 @@
       <section class="window" id="certificate">
          <h3>Web and computer programming Certificate</h3>
          <div id="buttons">
-            <button onclick="list_courses(courses)">All</button>
-            <button onclick="wdd_courses()">WDD</button>
-            <button onclick="cse_courses()">CSE</button>
+            <button id="list_courses()">All</button>
+            <button id="wdd_courses()">WDD</button>
+            <button id="cse_courses()">CSE</button>
          </div>
          <div id="course-subject"></div>
+         <dialog id="course-details"></dialog>
       </section>
    </main>
    <footer>

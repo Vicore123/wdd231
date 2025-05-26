@@ -1,3 +1,5 @@
+import { displayCourseDetails } from "./display_course_modal.mjs";
+
 const courses = [
    {
        subject: 'CSE',
@@ -79,6 +81,19 @@ const courses = [
 ]
 const course_list = document.getElementById("course-list");
 const course_subject = document.getElementById("course-subject");
+const list_courses_btn = document.getElementById("list_courses()")
+const wdd_courses_btn = document.getElementById("wdd_courses()")
+const cse_courses_btn = document.getElementById("cse_courses()")
+
+list_courses_btn.addEventListener('click', () => {
+    list_courses(courses);
+});
+wdd_courses_btn.addEventListener('click', () => {
+    wdd_courses();
+});
+cse_courses_btn.addEventListener('click', () => {
+    cse_courses();
+});
 
 courses.map((course) => {
     course_list.innerHTML += `<li>${course.title}</li>`
@@ -100,10 +115,13 @@ function list_courses(array) {
             p.style.backgroundColor = "#662F1F";
             p.style.color = "white"
         }
+        p.addEventListener('click', () => {
+            displayCourseDetails(course);
+        });
         course_subject.appendChild(p);
     })
 
-    h4.textContent = `The total number of course listed below is ${sum}`
+    h4.textContent = `The total number of credits listed above is ${sum}`
     course_subject.appendChild(h4);
 }
 
