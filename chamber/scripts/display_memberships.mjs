@@ -2,7 +2,7 @@ import { displayMembershipDetails } from "./memberships_modal.mjs";
 
 const memberships = document.getElementById("memberships");
 
-fetch('../data/membership_details.json')
+fetch('../chamber/data/membership_details.json')
   .then(response => response.json())
   .then(membership_details => {
 
