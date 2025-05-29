@@ -1,3 +1,7 @@
+body h1 {
+   display: none;
+}
+
 h3 {
    font-size: 24px;
    margin-left: 25px;
