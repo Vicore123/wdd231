@@ -1,0 +1,14 @@
+@media (min-width: 768px) {
+   main {
+      display: grid;
+      grid-template-columns: 2fr 1fr;
+   }
+   #join-form {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 20px;
+   }
+   #membership-details {
+      width: 30%;
+   }
+}

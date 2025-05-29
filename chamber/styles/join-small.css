@@ -1,0 +1,102 @@
+h3 {
+   font-size: 24px;
+   margin-left: 25px;
+}
+
+#join-form {
+   display: flex;
+   flex-direction: column;
+   margin: 25px;
+}
+
+label {
+   font-size: 13px;
+   display: flex;
+   flex-direction: column;
+   /* margin-top: 10px; */
+}
+input, select, textarea {
+   font-size: 15px;
+   padding: 5px;
+   margin-bottom: 10px;
+}
+textarea {
+   height: 4em;
+}
+
+
+/* ========== MEMBERSHIP SECTION ============= */
+#memberships div{
+   border: 1px solid black;
+   margin: 25px;
+   padding: 20px 0px 8px 0px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   border-radius: 0px 15px;
+   background-color: var(--secondary-color);
+}
+#memberships button {
+   padding: 10px 50px;
+   border: none;
+   border-radius: 10px;
+   margin: 10px;
+   background-color: var(--accent-color);
+}
+#memberships button:hover {
+   background-color: var(--primary-color);
+   color: white;
+}
+
+/* =========== MODAL ============= */
+#membership-details {
+   margin: auto;
+   padding: 10px;
+   /* border: none; */
+   border-radius: 10px;
+}
+#closeModal {
+   float: right;
+   border: none;
+   font-size: 20px;
+}
+#membership-details p {
+   margin: 10px 0px;
+}
+#membership-details li {
+   list-style: none;
+   margin-bottom: 10px;
+}
+#membership-details li::before {
+  content: "- ";
+}
+
+
+/* =============== ANIMATIONS ================ */
+#memberships div{
+  opacity: 0;
+  transform: translateY(20px);
+  margin-bottom: 50px;
+  animation: fadeSlideMargin 1s ease-out forwards;
+}
+
+@keyframes fadeSlideMargin {
+  to {
+   opacity: 1;
+   transform: translateY(0);
+   margin-bottom: 20px; 
+  }
+}
+
+#membership-details{
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeSlideMarginModal 0.5s ease-out forwards;
+}
+
+@keyframes fadeSlideMarginModal {
+  to {
+   opacity: 1;
+   transform: translateY(0);
+  }
+}
