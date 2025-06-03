@@ -1,0 +1,50 @@
+[
+  {
+    "name": "Lagoa da Messejana",
+    "description": "An iconic lagoon with over 33 hectares of water and the largest statue of Iracema, standing over 12 meters tall.",
+    "image": "../chamber/images/points_of_interest/lagoa_da_messejana.webp",
+    "address": "Av. Frei Cirilo, Messejana, Fortaleza - CE, 60840-005, Brazil"
+  },
+  {
+    "name": "Centro das Tapioqueiras",
+    "description": "A traditional gastronomic hub with numerous stalls offering Ceará-style tapioca and local handicrafts.",
+    "image": "../chamber/images/points_of_interest/centro_das_tapioqueiras.webp",
+    "address": "Av. Washington Soares, 9900 - Messejana, Fortaleza - CE, 60871-901, Brazil"
+  },
+  {
+    "name": "Messejana Street Market",
+    "description": "A historic open-air market operating for over 300 years, offering food, clothing, and crafts, especially busy on weekends.",
+    "image": "../chamber/images/points_of_interest/feira_da_messejana.webp",
+    "address": "Praça da Igreja Matriz, Messejana, Fortaleza - CE, 60840-005, Brazil"
+  },
+  {
+    "name": "Church of Our Lady of Conception",
+    "description": "A historical and religious landmark built on the site of the first Jesuit chapel from the 17th century.",
+    "image": "../chamber/images/points_of_interest/igreja.webp",
+    "address": "Praça da Igreja Matriz, Messejana, Fortaleza - CE, 60840-005, Brazil"
+  },
+  {
+    "name": "House of José de Alencar",
+    "description": "The birthplace of the famous Brazilian writer José de Alencar, now functioning as a museum.",
+    "image": "../chamber/images/points_of_interest/casa_jose_de_alencar.webp",
+    "address": "Av. Washington Soares, 6055 - José de Alencar, Fortaleza - CE, 60830-471, Brazil"
+  },
+  {
+    "name": "Messejana Hospital",
+    "description": "A healthcare reference center founded in 1930, specializing in cardiology and pulmonology.",
+    "image": "../chamber/images/points_of_interest/hospital.webp",
+    "address": "Av. Frei Cirilo, 3480 - Messejana, Fortaleza - CE, 60840-005, Brazil"
+  },
+  {
+    "name": "Messejana Bus Terminal",
+    "description": "A major public transportation hub in Fortaleza, serving around 135,000 passengers daily.",
+    "image": "../chamber/images/points_of_interest/terminal_messejana.webp",
+    "address": "Av. Jornalista Tomás Coelho, Messejana, Fortaleza - CE, 60840-005, Brazil"
+  },
+  {
+    "name": "Messejana Public Market",
+    "description": "A 19th-century colonial-style market and key commercial center, known for its vibrant Sunday market.",
+    "image": "../chamber/images/points_of_interest/mercado_publico.webp",
+    "address": "Praça da Igreja Matriz, Messejana, Fortaleza - CE, 60840-005, Brazil"
+  }
+]

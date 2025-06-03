@@ -1,0 +1,39 @@
+#cards {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   gap: 1rem;
+}
+#cards div {
+   flex-direction: column;
+   padding: 15px;
+   box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);
+   border-radius: 10px;
+   max-width: 700px;
+}
+@media (max-width: 640px) {
+   #cards div {
+      display: flex;
+      max-width: 300px;
+   }
+}
+
+#cards h2 {
+   margin-bottom: 10px;
+}
+#cards p {
+   margin-bottom: 20px;
+}
+#cards address {
+   margin-bottom: 10px;
+}
+#cards button {
+   background-color: var(--secondary-color);
+   border: none;
+   padding: 10px 20px;
+   font-size: 16px;
+   font-weight: 600;
+   border-radius: 20px;
+   margin-top: 10px;
+   width: 100%;
+}

@@ -1,0 +1,23 @@
+@media (min-width: 1140px) {
+   #cards {
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   gap: 1rem;
+   justify-self: center;
+   }
+   
+   #cards div {
+      min-height: 20rem;
+      
+   }
+   #cards div figure {
+      float: left;
+      margin-right: 10px;
+   }
+}
+@media (max-width: 1139px) and (min-width: 641px) {
+   #cards div figure {
+      float: left;
+      margin-right: 10px;
+   }
+}
