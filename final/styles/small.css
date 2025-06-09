@@ -1,0 +1,242 @@
+:root {
+   --primary-color: #1B4F8B;
+   --secondary-color: #FFF275;
+   --accent-color: #92BCEA;
+}
+
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: "Inter", sans-serif;
+}
+
+/* =============== HEADER =============== */
+header {
+   background-color: var(--accent-color);
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: space-between;
+   padding: 10px 0px;
+}
+
+#logo {
+   width: 150px;
+   margin-bottom: 10px;
+}
+
+#cartImg,
+#search,
+#menu-button {
+   width: 30px;
+   font-size: 30px;
+}
+
+@media (max-width: 768px) {
+   #cartImg {
+      position: absolute;
+      top: 25px;
+      right: 15px;
+   }
+}
+
+/* =============== CART =============== */
+.cart {
+   position: fixed;
+   top: 0;
+   right: 0;
+   width: 80%;
+   height: 100%;
+   background-color: white;
+   transform: translateX(100%);
+   transition: transform 0.3s ease;
+   z-index: 1000;
+   padding: 1rem;
+}
+
+.cart.open {
+   transform: translateX(0);
+}
+
+#openCartBtn {
+   border: none;
+   background-color: transparent;
+   cursor: pointer;
+}
+
+#closeCartBtn {
+   background-color: transparent;
+   border: none;
+   font-size: 24px;
+   cursor: pointer;
+   position: absolute;
+   top: 10px;
+   right: 10px;
+}
+
+/* =============== MENU BUTTON =============== */
+#menu-button {
+   position: absolute;
+   top: 20px;
+   left: 15px;
+   background-color: transparent;
+   border: none;
+}
+
+header form {
+   display: flex;
+   justify-content: center;
+}
+
+.input-container {
+   position: relative;
+   width: 100%;
+}
+
+.input-container input {
+   height: 40px;
+   padding: 0 120px 0 10px;
+   font-size: 16px;
+   border: 2px solid #ccc;
+   border-radius: 8px;
+}
+
+.input-container button {
+   position: absolute;
+   top: 0;
+   right: 0;
+   height: 100%;
+   padding: 0 10px;
+   font-size: 16px;
+   background-color: transparent;
+   border: none;
+   cursor: pointer;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+/* =============== BANNER =============== */
+#banner-container {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background: #222;
+}
+
+.banner {
+   overflow: hidden;
+   border-radius: 10px;
+   box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+.banner img {
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+   transition: opacity 0.5s ease-in-out;
+}
+
+/* =============== MENU =============== */
+#menu {
+   width: 100%;
+   max-height: 0;
+   overflow: hidden;
+   background-color: var(--primary-color);
+   transition: max-height 0.5s ease;
+   position: relative;
+}
+
+#menu.show {
+   max-height: 300px;
+}
+
+.menu-items {
+   display: block;
+   padding: 15px;
+   color: white;
+   text-align: center;
+   text-decoration: none;
+   font-size: 18px;
+   border-bottom: 1px solid var(--accent-color);
+}
+
+
+.menu-items:nth-child(even) {
+   background-color: var(--accent-color);
+}
+
+/* =============== MAIN =============== */
+main {
+   padding: 15px;
+}
+
+main .button {
+   border-radius: 100px;
+   padding: 10px;
+   border: none;
+   box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+main .button img {
+   width: 30px;
+}
+
+#department-links {
+   display: flex;
+   width: 70%;
+   justify-content: space-between;
+   margin: 30px auto;
+}
+
+#highlights {
+   display: flex;
+   overflow-x: auto;
+   gap: 10px;
+   padding: 10px;
+   scroll-snap-type: x mandatory;
+}
+
+.product-cards {
+   flex: 0 0 auto;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   width: 200px;
+   background: var(--accent-color);
+   border-radius: 8px;
+   padding: 10px;
+}
+
+.product-cards img {
+   height: 100px;
+   margin-bottom: 10px;
+}
+
+/* =============== FOOTER =============== */
+footer {
+   background-color: var(--primary-color);
+   color: white;
+   padding: 15px;
+}
+
+footer a {
+   text-decoration: none;
+   color: white;
+   font-weight: bold;
+}
+
+footer p {
+   margin: 10px 0px;
+}
+
+footer img {
+   width: 80px;
+   margin: 20px 10px;
+}
+
+#social-media {
+   display: flex;
+   justify-content: center;
+}

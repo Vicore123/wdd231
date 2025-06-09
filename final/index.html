@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>HighEnd Technology - Homepage</title>
+      <meta name="description" content="HighEnd Technology Home Page" />
+      <meta name="author" content="Vinicius Alves" />
+
+      <meta property="og:title" content="HighEnd Technology - Home Page" />
+      <meta property="og:description" content="The easiest way to build or update your setup is at HighEnd Technology" />
+      <meta property="og:url" content="https://vicore123.github.io/wdd231/final/index.html" />
+
+      <link rel="preconnect" href="https://fonts.googleapis.com" />
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+      <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet" />
+
+      <link rel="stylesheet" href="styles/small.css" />
+      <link rel="stylesheet" href="styles/large.css" />
+
+      <script src="./scripts/cart.js" defer></script>
+      <script src="./scripts/menu.js" defer></script>
+      <script src="./scripts/getdates.js" defer></script>
+      <script src="./scripts/banner.js" defer></script>
+      <script type="module" src="./scripts/highlights.mjs"></script>
+   </head>
+   <body>
+      <header>
+         <img src="images/logo.svg" alt="logo" id="logo" />
+
+         <button id="menu-button">☰</button>
+
+         <form action="/">
+            <div class="input-container">
+               <input type="text" name="search" placeholder="Search..." />
+               <button type="submit">
+                  <img src="images/icons/search.png" alt="search icon" id="search" />
+               </button>
+            </div>
+         </form>
+
+         <button id="openCartBtn">
+            <img src="./images/icons/cart.png" alt="cart" id="cartImg" />
+         </button>
+      </header>
+
+      <div id="menu">
+         <a href="" class="menu-items">link</a>
+         <a href="" class="menu-items">link</a>
+         <a href="" class="menu-items">link</a>
+      </div>
+
+      <main>
+         <div id="banner-container">
+            <div class="banner">
+               <img id="banner-img" src="./images/banner1.jpeg" alt="Banner" />
+            </div>
+         </div>
+
+         <div id="department-links">
+            <button class="button" id="jewelery-button">
+               <img src="./images/icons/jewelery.png" alt="Jewelery" />
+            </button>
+            <button class="button" id="eletronics-button">
+               <img src="./images/icons/mouse.png" alt="eletronics button" />
+            </button>
+            <button class="button" id="clothing-button">
+               <img src="./images/icons/shirt.png" alt="clothing" />
+            </button>
+         </div>
+
+         <div id="highlights"></div>
+         <div>
+            <img src="" alt="" />
+            <p></p>
+            <h3></h3>
+         </div>
+      </main>
+
+      <footer>
+         <div>
+            <h2>HighEnd Technology Store</h2>
+            <p>Rua Lorem ipsum, 555</p>
+            <p>Messejana, CEP 999-999</p>
+            <p>info@lorem.org</p>
+            <p>+55 (85) 99999-9999</p>
+         </div>
+         <div id="social-media">
+            <img src="images/youtube.png" alt="YouTube link" />
+            <img src="images/twitter.png" alt="Twitter link" />
+            <img src="images/linkedin.png" alt="LinkedIn link" />
+         </div>
+         <div>
+            <p>WDD231 Class Final Project</p>
+            <p>
+               Vinicius Alves, all images were selected from
+               <a href="https://www.flaticon.com/">flaticon.com</a> and
+               <a href="https://www.freepik.com/">freepik.com</a>
+            </p>
+            <p>&copy;<strong id="currentyear"></strong> HighEnd Technology Store</p>
+            <p><strong id="lastModified"></strong></p>
+         </div>
+      </footer>
+
+      <div id="cart" class="cart">
+         <button id="closeCartBtn">✖</button>
+         <h2>Your Cart</h2>
+      </div>
+   </body>
+</html>

@@ -7,7 +7,6 @@
 body {
    font-family: 'Open Sans', sans-serif;
    background-color: var(--accent-color);
-   /* color: var(--secondary-color); */
    padding: 20px;
    max-width: 800px;
    margin: auto;
