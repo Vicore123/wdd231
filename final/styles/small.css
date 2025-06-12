@@ -18,7 +18,13 @@ header {
    flex-direction: column;
    align-items: center;
    justify-content: space-between;
-   padding: 10px 0px;
+   /* padding: 10px 0px; */
+}
+
+#header {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
 }
 
 #logo {
@@ -34,13 +40,16 @@ header {
 }
 
 @media (max-width: 768px) {
-   #cartImg {
-      position: absolute;
-      top: 25px;
-      right: 15px;
+   header {
+      padding: 10px 0px;
    }
 }
 
+#cartImg {
+   position: absolute;
+   top: 25px;
+   right: 15px;
+}
 /* =============== CART =============== */
 .cart {
    position: fixed;
@@ -159,7 +168,7 @@ header form {
    text-align: center;
    text-decoration: none;
    font-size: 18px;
-   border-bottom: 1px solid var(--accent-color);
+   /* border-bottom: 1px solid var(--accent-color); */
 }
 
 
@@ -186,6 +195,7 @@ main .button img {
 #department-links {
    display: flex;
    width: 70%;
+   max-width: 300px;
    justify-content: space-between;
    margin: 30px auto;
 }
@@ -233,6 +243,7 @@ footer p {
 
 footer img {
    width: 80px;
+   height: fit-content;
    margin: 20px 10px;
 }
 

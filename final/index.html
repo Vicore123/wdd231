@@ -26,29 +26,33 @@
    </head>
    <body>
       <header>
-         <img src="images/logo.svg" alt="logo" id="logo" />
+         <div id="header">
+            <a href="/index.html">
+               <img src="images/logo.svg" alt="logo" id="logo" />
+            </a>
 
-         <button id="menu-button">☰</button>
+            <button id="menu-button">☰</button>
 
-         <form action="/">
-            <div class="input-container">
-               <input type="text" name="search" placeholder="Search..." />
-               <button type="submit">
-                  <img src="images/icons/search.png" alt="search icon" id="search" />
-               </button>
-            </div>
-         </form>
+            <form action="/">
+               <div class="input-container">
+                  <input type="text" name="search" placeholder="Search..." />
+                  <button type="submit">
+                     <img src="images/icons/search.png" alt="search icon" id="search" />
+                  </button>
+               </div>
+            </form>
 
-         <button id="openCartBtn">
-            <img src="./images/icons/cart.png" alt="cart" id="cartImg" />
-         </button>
+            <button id="openCartBtn">
+               <img src="./images/icons/cart.png" alt="cart" id="cartImg" />
+            </button>
+         </div>
+
+         <div id="menu">
+            <a href="" class="menu-items">link</a>
+            <a href="" class="menu-items">link</a>
+            <a href="" class="menu-items">link</a>
+         </div>
       </header>
-
-      <div id="menu">
-         <a href="" class="menu-items">link</a>
-         <a href="" class="menu-items">link</a>
-         <a href="" class="menu-items">link</a>
-      </div>
 
       <main>
          <div id="banner-container">
@@ -69,12 +73,8 @@
             </button>
          </div>
 
-         <div id="highlights"></div>
-         <div>
-            <img src="" alt="" />
-            <p></p>
-            <h3></h3>
-         </div>
+         <form action='/product.html' id="highlights"></form>
+         
       </main>
 
       <footer>

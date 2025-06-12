@@ -1,0 +1,15 @@
+#item h1 {
+   font-size: 20px;
+   margin: 20px 0px;
+}
+
+#info {
+   display: flex;
+   justify-content: space-between;
+}
+#item img {
+   width: 100%;
+}
+#item h2 {
+   margin: 15px 0px;
+}

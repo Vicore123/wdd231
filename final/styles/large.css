@@ -2,4 +2,39 @@
    #menu-button {
       display: none;
    }
+   #menu {
+      display: flex;
+      justify-content: space-between;
+      background-color: var(--accent-color);
+      overflow: visible;
+      max-width: 300px;
+      max-height: 300px;
+      position: relative;
+   }
+   .menu-items {
+      display: inline;
+      color: white;
+      text-align: center;
+      
+   }
+   .menu-items:nth-child(even) {
+      background-color: transparent;
+   }
+   header form {
+      margin-top: 15px;
+   }
+   #logo {
+      position: absolute;
+      top: 15px;
+      left: 10px;
+   }
+
+   .cart {
+      width: 50%;
+   }
+
+   footer {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+   }
 }

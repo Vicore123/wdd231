@@ -1,5 +1,5 @@
 const url = 'https://fakestoreapi.com/products/category/'
-
+// categry options: "all", "electronics", "jewelery", "men's clothing", "women's clothing"
 export default async function apiFetch(category) {
    let modified_url = `${url}${category}`;
    if (category == 'all') {
