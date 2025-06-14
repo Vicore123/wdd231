@@ -1,0 +1,19 @@
+.item {
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   gap: 15px;
+   min-height: 250px;
+   align-items: center;
+}
+.item h2 {
+   font-size: 20px;
+}
+.item img {
+   width: 100%;
+}
+.item p {
+   margin: 10px 0px;
+}
+.price {
+   font-size: 30px;
+}

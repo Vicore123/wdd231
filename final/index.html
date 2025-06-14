@@ -17,12 +17,14 @@
 
       <link rel="stylesheet" href="styles/small.css" />
       <link rel="stylesheet" href="styles/large.css" />
+      <link rel="stylesheet" href="styles/highlights.css">
 
       <script src="./scripts/cart.js" defer></script>
       <script src="./scripts/menu.js" defer></script>
       <script src="./scripts/getdates.js" defer></script>
       <script src="./scripts/banner.js" defer></script>
       <script type="module" src="./scripts/highlights.mjs"></script>
+      
    </head>
    <body>
       <header>
@@ -62,15 +64,15 @@
          </div>
 
          <div id="department-links">
-            <button class="button" id="jewelery-button">
+            <a class="button" id="jewelery-button" href="./department.html?department=jewelery">
                <img src="./images/icons/jewelery.png" alt="Jewelery" />
-            </button>
-            <button class="button" id="eletronics-button">
+            </a>
+            <a class="button" id="eletronics-button" href="./department.html?department=electronics">
                <img src="./images/icons/mouse.png" alt="eletronics button" />
-            </button>
-            <button class="button" id="clothing-button">
+            </a>
+            <a class="button" id="clothing-button" href="./department.html?department=men's clothing">
                <img src="./images/icons/shirt.png" alt="clothing" />
-            </button>
+            </a>
          </div>
 
          <form action='../final/product.html' id="highlights"></form>
