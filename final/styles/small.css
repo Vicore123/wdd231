@@ -10,6 +10,9 @@
    box-sizing: border-box;
    font-family: "Inter", sans-serif;
 }
+button {
+   cursor: pointer;
+}
 
 /* =============== HEADER =============== */
 header {
@@ -198,6 +201,13 @@ main .button img {
    max-width: 300px;
    justify-content: space-between;
    margin: 30px auto;
+}
+
+#highlights {
+   justify-self: center
+}
+#highlights button {
+   border: none;
 }
 
 /* =============== FOOTER =============== */
