@@ -4,6 +4,8 @@
    gap: 15px;
    min-height: 250px;
    align-items: center;
+   border: none;
+   background-color: transparent;
 }
 .item h2 {
    font-size: 20px;

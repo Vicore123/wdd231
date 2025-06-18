@@ -3,7 +3,7 @@ import apiFetch from "./apiFetch.mjs";
 const products = await apiFetch('all');
 const currentItemId = new URLSearchParams(window.location.search).get("item");
 
-function waitForElement(selector, callback) {
+export default function waitForElement(selector, callback) {
    const check = setInterval(() => {
       const element = document.querySelector(selector);
       if (element) {
@@ -72,14 +72,24 @@ function addItemToCart() {
    if (!cart.items.includes(currentItemId)) {
       cart.items.push(currentItemId);
       localStorage.setItem("cart", JSON.stringify(cart));
+      showSuccessModal();
    }
    renderCartItems();
 }
+
 
 function removeItemFromCart(idToRemove) {
    cart.items = cart.items.filter(productId => productId !== idToRemove);
    localStorage.setItem("cart", JSON.stringify(cart));
    renderCartItems();
+}
+
+function showSuccessModal() {
+   const modal = document.getElementById('cart-success-modal')
+   modal.classList.add('show')
+   setTimeout(() => {
+      modal.classList.remove('show')
+   }, 2000)
 }
 
 // localStorage.clear();

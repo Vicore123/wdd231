@@ -18,6 +18,7 @@
       <link rel="stylesheet" href="styles/small.css">
       <link rel="stylesheet" href="styles/large.css">
       <link rel="stylesheet" href="styles/department-small.css">
+      <link rel="stylesheet" href="styles/department-large.css">
 
       <script type="module" src="./scripts/cart.mjs"></script>
       <script src="./scripts/menu.js" defer></script>
@@ -55,8 +56,7 @@
       </header>
 
       <main>
-         <div id="department"></div>
-         <button>Add to cart</button>
+         <form action="../final/product.html" id="department"></form>
       </main>
 
       <footer>
@@ -88,6 +88,9 @@
          <button id="closeCartBtn">✖</button>
          <h2>Your Cart</h2>
          <div id="cart-content"></div>
+      </div>
+      <div id="cart-success-modal" class="cart-success-hidden">
+         Item sucessfuly added
       </div>
    </body>
 </html>

@@ -8,14 +8,13 @@ htmlElement.innerHTML = "";
 
 data.forEach(item => {
     htmlElement.innerHTML += `
-   <div class="item">
+   <button class="item" name="item" value="${item.id}">
       <img src="${item.image}" alt="">
       <div>
          <h2>${item.title}</h2>
          <p><strong>Rating: </strong>${item.rating.rate} / 5</p>
          <p class="price">$${item.price}</p>
-         
       </div>
-   </div>
+   </button>
   `;
 });
