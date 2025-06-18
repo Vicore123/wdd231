@@ -219,6 +219,7 @@ header form {
 
 .menu-items:nth-child(even) {
    background-color: var(--accent-color);
+   color:#1a1a1a;;
 }
 
 /* =============== MAIN =============== */

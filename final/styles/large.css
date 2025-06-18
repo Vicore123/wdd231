@@ -13,12 +13,13 @@
    }
    .menu-items {
       display: inline;
-      color: white;
+      color: #1a1a1a;
       text-align: center;
       
    }
    .menu-items:nth-child(even) {
       background-color: transparent;
+      
    }
    header form {
       margin-top: 15px;
