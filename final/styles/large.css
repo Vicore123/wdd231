@@ -33,6 +33,10 @@
       width: 30%;
    }
 
+   #highlights {
+      justify-self: center
+   }
+
    footer {
       display: grid;
       grid-template-columns: 1fr 1fr 1fr;

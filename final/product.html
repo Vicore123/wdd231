@@ -20,7 +20,7 @@
       <link rel="stylesheet" href="styles/product-small.css">
       <link rel="stylesheet" href="styles/product-large.css">
 
-      <script src="./scripts/cart.js" defer></script>
+      <script type="module" src="./scripts/cart.mjs"></script>
       <script src="./scripts/menu.js" defer></script>
       <script src="./scripts/getdates.js" defer></script>
       <script type="module" src="./scripts/product.mjs"></script>
@@ -58,8 +58,10 @@
       <main>
          <div id="item"></div>
          <form action='../final/product.html' id="highlights"></form>
-      </main>
 
+         <form action=""></form>
+      </main>
+      
       <footer>
          <div>
             <h2>HighEnd Technology Store</h2>
@@ -88,6 +90,7 @@
       <div id="cart" class="cart">
          <button id="closeCartBtn">✖</button>
          <h2>Your Cart</h2>
+         <div id="cart-content"></div>
       </div>
    </body>
 </html>

@@ -14,7 +14,7 @@ item.innerHTML = `
    <h1>${data[id].title}</h1>
    <img src="${data[id].image}" alt="">
    <h2>Price: $${data[id].price}</h2>
-   <button>Add to cart</button>
+   <button id="add-to-cart" >Add to cart</button>
    <p><strong>Description: </strong>${data[id].description}</p>
 </div>
 `
