@@ -17,6 +17,7 @@ const cartContainer = document.getElementById('cart');
 const openCartBtn = document.getElementById('openCartBtn');
 const closeCartBtn = document.getElementById('closeCartBtn');
 const cartContentElement = document.getElementById('cart-content');
+const modal = document.getElementById('cart-success-modal')
 
 waitForElement('#add-to-cart', (addToCartBtn) => {
    addToCartBtn.addEventListener('click', () => addItemToCart());
@@ -85,7 +86,6 @@ function removeItemFromCart(idToRemove) {
 }
 
 function showSuccessModal() {
-   const modal = document.getElementById('cart-success-modal')
    modal.classList.add('show')
    setTimeout(() => {
       modal.classList.remove('show')

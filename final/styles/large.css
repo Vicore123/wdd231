@@ -30,7 +30,13 @@
    }
 
    .cart {
-      width: 30%;
+      width: 400px;
+   }
+   .cart-item {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      margin: 15px 0px;
+      gap: 10px;
    }
 
    #highlights {
